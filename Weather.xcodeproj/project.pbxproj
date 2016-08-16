@@ -14,6 +14,7 @@
 		0F6411A21D622E920057EB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6411A01D622E920057EB1A /* LaunchScreen.storyboard */; };
 		0F6411AD1D622E930057EB1A /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411AC1D622E930057EB1A /* WeatherTests.swift */; };
 		0F6411B81D622E930057EB1A /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411B71D622E930057EB1A /* WeatherUITests.swift */; };
+		0F6411CE1D637BFB0057EB1A /* AddDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411CD1D637BFB0057EB1A /* AddDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0F6411B31D622E930057EB1A /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6411B71D622E930057EB1A /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		0F6411B91D622E930057EB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6411CD1D637BFB0057EB1A /* AddDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0F64119E1D622E920057EB1A /* Assets.xcassets */,
 				0F6411A01D622E920057EB1A /* LaunchScreen.storyboard */,
 				0F6411A31D622E920057EB1A /* Info.plist */,
+				0F6411CD1D637BFB0057EB1A /* AddDetailViewController.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F6411CE1D637BFB0057EB1A /* AddDetailViewController.swift in Sources */,
 				0F64119A1D622E920057EB1A /* ViewController.swift in Sources */,
 				0F6411981D622E920057EB1A /* AppDelegate.swift in Sources */,
 			);
