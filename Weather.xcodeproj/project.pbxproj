@@ -15,6 +15,7 @@
 		0F6411AD1D622E930057EB1A /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411AC1D622E930057EB1A /* WeatherTests.swift */; };
 		0F6411B81D622E930057EB1A /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411B71D622E930057EB1A /* WeatherUITests.swift */; };
 		0F6411CE1D637BFB0057EB1A /* AddDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6411CD1D637BFB0057EB1A /* AddDetailViewController.swift */; };
+		B85FAEB81D647B3B00E785D4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B85FAEB71D647B3B00E785D4 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0F6411B71D622E930057EB1A /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		0F6411B91D622E930057EB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F6411CD1D637BFB0057EB1A /* AddDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailViewController.swift; sourceTree = "<group>"; };
+		B85FAEB71D647B3B00E785D4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0F6411961D622E920057EB1A /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				B85FAEB71D647B3B00E785D4 /* icon.png */,
 				0F6411971D622E920057EB1A /* AppDelegate.swift */,
 				0F6411991D622E920057EB1A /* ViewController.swift */,
 				0F64119B1D622E920057EB1A /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85FAEB81D647B3B00E785D4 /* icon.png in Resources */,
 				0F6411A21D622E920057EB1A /* LaunchScreen.storyboard in Resources */,
 				0F64119F1D622E920057EB1A /* Assets.xcassets in Resources */,
 				0F64119D1D622E920057EB1A /* Main.storyboard in Resources */,
@@ -488,6 +492,7 @@
 				0F6411BE1D622E930057EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6411BF1D622E930057EB1A /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				0F6411C11D622E930057EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F6411C21D622E930057EB1A /* Build configuration list for PBXNativeTarget "WeatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				0F6411C41D622E930057EB1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,14 +17,15 @@ class AddDetailViewController: UIViewController {
     @IBOutlet weak var outletNextBtn: UIButton!
     @IBOutlet weak var txtTemperature: UITextField!
     @IBOutlet weak var txtName: UITextField!
+    
+    weak var firstVC:ViewController?
    
-    var addDetailsDelegate : AddDetailsDelegate?
+    //var addDetailsDelegate : AddDetailsDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
+        self.title = "Add City / Temperature"
         
     }
 
@@ -32,7 +33,10 @@ class AddDetailViewController: UIViewController {
         
         if txtName.text != "" && txtTemperature.text != ""{
             
-        self.addDetailsDelegate?.detailsAdded(self.txtName.text!, temp: self.txtTemperature.text!)
+       // self.addDetailsDelegate?.detailsAdded(self.txtName.text!, temp: self.txtTemperature.text!)
+            
+          firstVC!.detailsAdded(self.txtName.text!, temp: self.txtTemperature.text!)
+            
            self.navigationController?.popViewControllerAnimated(true)
         }else{
             
