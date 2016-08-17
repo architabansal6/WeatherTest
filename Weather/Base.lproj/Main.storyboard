@@ -118,8 +118,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-hS-MeH">
-                                <rect key="frame" x="20" y="124" width="215" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1t-hS-MeH">
+                                <rect key="frame" x="20" y="124" width="31" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="bQO-Et-yvv"/>
                                 </constraints>
@@ -127,17 +127,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-PY-Oq2">
-                                <rect key="frame" x="255" y="124" width="100" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Uy0-Il-4Ao"/>
-                                    <constraint firstAttribute="height" constant="30" id="mX9-9v-6pt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-PY-Oq2">
+                                <rect key="frame" x="138" y="124" width="217" height="30"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35O-jG-A2I">
-                                <rect key="frame" x="20" y="174" width="215" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35O-jG-A2I">
+                                <rect key="frame" x="20" y="174" width="98" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="00P-An-XXk"/>
                                 </constraints>
@@ -145,16 +143,18 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDf-Fv-UpB">
-                                <rect key="frame" x="255" y="174" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDf-Fv-UpB">
+                                <rect key="frame" x="138" y="174" width="217" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="hBZ-Ze-MJd"/>
-                                    <constraint firstAttribute="width" constant="100" id="tFJ-aM-bFp"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="tFJ-aM-bFp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EI1-ef-VRd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EI1-ef-VRd">
                                 <rect key="frame" x="20" y="264" width="335" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="eZL-Aa-E0w"/>
@@ -173,23 +173,22 @@
                             <constraint firstItem="DDf-Fv-UpB" firstAttribute="leading" secondItem="35O-jG-A2I" secondAttribute="trailing" constant="20" id="6aO-dk-8bO"/>
                             <constraint firstItem="35O-jG-A2I" firstAttribute="top" secondItem="N1t-hS-MeH" secondAttribute="bottom" constant="20" id="DCf-dl-02I"/>
                             <constraint firstAttribute="trailing" secondItem="DDf-Fv-UpB" secondAttribute="trailing" constant="20" id="DNT-rv-TR4"/>
-                            <constraint firstAttribute="trailing" secondItem="HVv-PY-Oq2" secondAttribute="trailing" constant="20" id="FND-EF-LXO"/>
                             <constraint firstItem="EI1-ef-VRd" firstAttribute="leading" secondItem="Ten-pA-9xl" secondAttribute="leading" constant="20" id="G0F-UE-Guq"/>
-                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="top" secondItem="hNN-rB-hZr" secondAttribute="bottom" constant="60" id="MoF-pw-zw3"/>
+                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="leading" secondItem="DDf-Fv-UpB" secondAttribute="leading" id="Jl2-Vc-9RE"/>
                             <constraint firstItem="N1t-hS-MeH" firstAttribute="leading" secondItem="Ten-pA-9xl" secondAttribute="leading" constant="20" id="NMA-Hk-nD2"/>
-                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="leading" secondItem="N1t-hS-MeH" secondAttribute="trailing" constant="20" id="RVK-kR-E2n"/>
+                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="trailing" secondItem="DDf-Fv-UpB" secondAttribute="trailing" id="VCn-Dp-DGL"/>
                             <constraint firstItem="EI1-ef-VRd" firstAttribute="centerX" secondItem="Ten-pA-9xl" secondAttribute="centerX" id="Z4r-7C-GWg"/>
-                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="leading" secondItem="N1t-hS-MeH" secondAttribute="trailing" constant="20" id="bvy-Ok-lVm"/>
                             <constraint firstAttribute="trailing" secondItem="EI1-ef-VRd" secondAttribute="trailing" constant="20" id="f4F-ig-W8L"/>
                             <constraint firstItem="N1t-hS-MeH" firstAttribute="top" secondItem="hNN-rB-hZr" secondAttribute="bottom" constant="60" id="k9v-v2-Vn9"/>
+                            <constraint firstItem="HVv-PY-Oq2" firstAttribute="top" secondItem="N1t-hS-MeH" secondAttribute="top" id="lHw-IC-e09"/>
+                            <constraint firstItem="DDf-Fv-UpB" firstAttribute="top" secondItem="HVv-PY-Oq2" secondAttribute="bottom" constant="20" id="m1r-MO-Ku1"/>
                             <constraint firstItem="EI1-ef-VRd" firstAttribute="top" secondItem="35O-jG-A2I" secondAttribute="bottom" constant="60" id="spB-F0-1RW"/>
-                            <constraint firstItem="DDf-Fv-UpB" firstAttribute="top" secondItem="HVv-PY-Oq2" secondAttribute="bottom" constant="20" id="yrg-aB-FA0"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Z4r-7C-GWg"/>
                                 <exclude reference="25x-sZ-zF4"/>
                                 <exclude reference="6aO-dk-8bO"/>
+                                <exclude reference="Z4r-7C-GWg"/>
                             </mask>
                         </variation>
                     </view>
