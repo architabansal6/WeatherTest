@@ -29,7 +29,7 @@ class ViewController: UIViewController,AddDetailsDelegate,UITableViewDelegate,UI
 
     override func viewWillAppear(animated: Bool) {
         
-        self.title = "Indian City Temperatures"
+        self.title = "Indian Cities Temperatures"
     }
     
     //MARK: ACTION METHODS
